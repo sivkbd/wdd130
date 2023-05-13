@@ -1,0 +1,51 @@
+div {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#background {
+    height: 725px;
+}
+   
+body {
+    background-color: #72724e; 
+}
+header {
+    background-color:rgba(137, 138, 132, 0.514);
+}
+nav a:hover {
+    background-color: rgb(160, 20, 20);
+}
+
+nav a:hover {
+    background-color: rgb(6, 29, 9);
+    color: #d9c2a3;
+}    
+ 
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100px;
+}
+
+nav a {
+    text-align: center;
+    color: #100e88;
+    text-decoration: none;
+}    
+
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+} 
