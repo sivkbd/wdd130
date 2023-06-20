@@ -206,6 +206,60 @@ footer .social img {
 }
 
 
+/*Rivers page style.css*/
+
+#content-2 {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#river-msg{
+    background-color: rgba(192, 182, 192, 0.534);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0 300px;
+    padding: 0;
+}
+
+main.River-grid{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+
+footer-2{
+    background-color: rgba(236, 153, 0, 0.164);
+    color: rgba(8, 8, 7, 0.164);
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer-2 a {
+    color: rgb(9, 9, 53);
+    padding: 10px;
+    text-decoration: none;   
+}
+footer-2 a :hover{
+    color: rgb(9, 9, 53);    
+}
+footer-2 p {
+    font-size: 1.2em;
+    color:  rgb(9, 9, 53);   
+}    
+ 
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
