@@ -1,0 +1,136 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+}
+/*the header nav*/
+
+header {
+    background-color: rgba(25, 71, 41, 0.418);
+
+}
+.logo {
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+
+nav a{
+    text-align: center;
+    color: rgb(255, 205, 6);
+    text-decoration: none;
+    padding: 35px; 
+}
+
+.prep-img{
+    width: 100%;    
+}
+main section{
+    text-align: center;
+   
+}
+
+main section img {
+    box-sizing: border-box;
+ 
+}
+
+
+.card-img {
+    width: 100%;
+    border: 10px solid #503a5c;
+}
+
+body{
+    background-color: rgba(192, 182, 192, 0.534);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    margin: 0 300px;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+nav a:hover {
+    
+    background-color: rgba(82, 52, 52, 0.219);
+    color:rgb(78, 55, 12);
+    
+}
+.order_now{
+    font-size: 18px;
+    background-color: rgb(83, 77, 50);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover{
+    background-color: rgb(83, 77, 50);
+    color: rgb(0, 0, 0);
+    margin: 35px;
+}
+#background {
+    height: 725px;
+    background-color: rgb(214, 221, 111);
+    margin: 40px 0;  
+}
+.msg{
+    background-color: rgba(236, 153, 0, 0.178);
+    padding: 35px;
+    line-height: 1.5em;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2{
+    color: rgb(41, 29, 35);
+}
+.msg p {
+    
+    font-size: .8em;
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+.adult-card, .teen-card, .kid-card { 
+    margin: 50px auto;
+    width: 60%;
+}
+main-1{
+    text-align: left;
+}
+
+
+
+footer{
+    background-color: rgba(236, 153, 0, 0.164);
+    color: rgba(8, 8, 7, 0.164);
+    padding: 25px 50px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: rgb(9, 9, 53);
+    padding: 10px;
+    text-decoration: none;   
+}
+footer a :hover{
+    color: rgb(9, 9, 53);    
+}
+footer p {
+    font-size: 1.2em;
+    color: rgb(9, 9, 53);   
+}    
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img {
+    padding-top: 10px;
+    
+}
