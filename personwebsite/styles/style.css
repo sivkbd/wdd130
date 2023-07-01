@@ -37,7 +37,6 @@ main section{
 }
 
 main section img {
-    display: inline-table;
     box-sizing: border-box;
 }
 
@@ -141,7 +140,7 @@ footer .social img {
 
 .page-card{
     display: flex;
-    gap: 100px;
+    gap: 300px;
 }
 
 
