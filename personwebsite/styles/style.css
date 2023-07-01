@@ -139,7 +139,7 @@ footer .social img {
 /*aboutus.html*/
 
 .page-card{
-    display: flex;
+    display: inline-flex;
     gap: 300px;
 }
 
