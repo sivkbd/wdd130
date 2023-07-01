@@ -7,6 +7,7 @@
 
 header {
     background-color: rgba(25, 71, 41, 0.418);
+    
 
 }
 .logo {
@@ -28,20 +29,23 @@ nav a{
 .prep-img{
     width: 100%;    
 }
+
 main section{
-    text-align: center;
-   
+    justify-items:center;
+    gap: 20px;
+    text-align: center; 
 }
 
 main section img {
+    display: inline-table;
     box-sizing: border-box;
- 
 }
 
-
 .card-img {
-    width: 100%;
+    width: 30%;
     border: 10px solid #503a5c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;   
 }
 
 body{
@@ -52,15 +56,14 @@ body{
     padding: 0;
 }
 
-h2 {
-    margin: 0;
+h1, h2{
+    font-size:large;
+    margin: 35px;
 }
 
-nav a:hover {
-    
+nav a:hover { 
     background-color: rgba(82, 52, 52, 0.219);
-    color:rgb(78, 55, 12);
-    
+    color:rgb(78, 55, 12);  
 }
 .order_now{
     font-size: 18px;
@@ -93,22 +96,15 @@ nav a:hover {
     color: rgb(41, 29, 35);
 }
 .msg p {
-    
     font-size: .8em;
     color: rgb(0, 0, 0);
     padding-bottom: 15px;
 }
-.adult-card, .teen-card, .kid-card { 
-    margin: 50px auto;
-    width: 60%;
-}
-main-1{
-    text-align: left;
-}
-#contact-grid{
-    text-align: left;
-}
 
+.Adult-card, .Teen-card, .Kid-card { 
+    margin: 30px auto;
+    width: 30%;
+}
 
 
 footer{
@@ -116,6 +112,9 @@ footer{
     color: rgba(8, 8, 7, 0.164);
     padding: 25px 50px;
     margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer a {
@@ -136,4 +135,29 @@ footer p a:hover {
 footer .social img {
     padding-top: 10px;
     
+}
+
+/*aboutus.html*/
+
+.page-card{
+    display: flex;
+    gap: 100px;
+}
+
+
+/*contactus.html css*/
+h1{
+    display: inline-flex;
+    gap: 100px;
+}
+
+.section, contact-img{
+    row-gap: 30px;
+}
+
+main-1{
+    text-align: left;
+}
+#contact-grid{
+    text-align: left;
 }
