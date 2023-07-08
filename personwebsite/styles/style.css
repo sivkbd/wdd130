@@ -7,8 +7,6 @@
 
 header {
     background-color: rgba(25, 71, 41, 0.418);
-    
-
 }
 .logo {
     width: 80px;
@@ -29,7 +27,12 @@ nav a{
 .prep-img{
     width: 100%;    
 }
+main, #home-grid{
+    display: grid; 
+    grid-template-columns: auto auto auto;   
+    margin: 30px;
 
+}
 main section{
     justify-items:center;
     gap: 20px;
@@ -38,6 +41,7 @@ main section{
 
 main section img {
     box-sizing: border-box;
+    
 }
 
 .card-img {
@@ -85,11 +89,14 @@ nav a:hover {
     background-color: rgb(214, 221, 111);
     margin: 40px 0;  
 }
-.msg{
+section.msg{
+    grid-column: 1 / span 3;
+    grid-row: 3;
     background-color: rgba(236, 153, 0, 0.178);
     padding: 35px;
     line-height: 1.5em;
     box-shadow: 5px 5px 10px #6f7364;
+    
 }
 .msg h2{
     color: rgb(41, 29, 35);
@@ -97,13 +104,17 @@ nav a:hover {
 .msg p {
     font-size: .8em;
     color: rgb(0, 0, 0);
-    padding-bottom: 15px;
+    padding: 10px;
+
 }
 
 .Adult-card, .Teen-card, .Kid-card { 
+
+    
     margin: 30px auto;
     width: 30%;
 }
+
 
 
 footer{
