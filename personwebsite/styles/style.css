@@ -25,7 +25,8 @@ nav a{
 }
 
 .prep-img{
-    width: 100%;    
+    width: 100%; 
+    height: 20%;   
 }
 main, #home-grid{
     display: grid; 
@@ -55,7 +56,6 @@ body{
     background-color: rgba(192, 182, 192, 0.534);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22px;
-    margin: 0 300px;
     padding: 0;
 }
 
@@ -109,8 +109,6 @@ section.msg{
 }
 
 .Adult-card, .Teen-card, .Kid-card { 
-
-    
     margin: 30px auto;
     width: 30%;
 }
@@ -147,27 +145,49 @@ footer .social img {
     
 }
 
-/*aboutus.html*/
-
-.page-card{
-    display: inline-flex;
-    gap: 300px;
-}
-
-
 /*contactus.html css*/
+main-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 100px;
+}
+body{
+    row-gap: 50px;
+}
+.feedback{
+    padding: 0 auto;
+}
+form{
+    
+    grid-column: 3/2;
+    grid-row: 2/3;
+}
 h1{
     display: inline-flex;
     gap: 100px;
 }
 
-.section, contact-img{
-    row-gap: 30px;
+section.contact-img{
+    display: inline-flex;
+    column-gap: 100px;
+    grid-column: 3/2;
+    grid-row: 1/2;
+
 }
+#contact-grid{
+  
+    text-align: left;
+}
+
+
+/*aboutus.html*/
 
 main-1{
     text-align: left;
 }
-#contact-grid{
-    text-align: left;
+
+.page-card{
+    display: inline-flex;
+    gap: 300px;
 }
