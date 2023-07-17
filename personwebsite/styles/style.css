@@ -89,7 +89,7 @@ nav a:hover {
     background-color: rgb(214, 221, 111);
     margin: 40px 0;  
 }
-section.msg{
+div.msg{
     grid-column: 1 / span 3;
     grid-row: 3;
     background-color: rgba(236, 153, 0, 0.178);
@@ -148,15 +148,12 @@ footer .social img {
 /*contactus.html css*/
 main-2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 100px;
 }
 body{
     row-gap: 50px;
-}
-.feedback{
-    padding: 0 auto;
 }
 form{
     
@@ -168,8 +165,9 @@ h1{
     gap: 100px;
 }
 
-section.contact-img{
+div.contact-img{
     display: inline-flex;
+    text-align: center;
     column-gap: 100px;
     grid-column: 3/2;
     grid-row: 1/2;
